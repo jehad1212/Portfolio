@@ -1,3 +1,3 @@
-# Portfolio
+# Jehad's Portfolio
 
-This is my portfolio
+Here are some examples of files I have written in Verilog and C++
