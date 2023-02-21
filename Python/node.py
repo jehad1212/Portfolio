@@ -37,13 +37,13 @@ class Node():
         """
         self.weight = weight;
 
-        self.left_child = left_child; #not sure if its that or none
+        self.left_child = left_child; 
         self.right_child = right_child;
         self.parent = parent;
         self.weight = weight;
         self.imbalance = imbalance;
 
-        # TODO Initialize the properties of the node
+        
 
     def add_left_child(self, node: 'Node') -> None:
         """
@@ -59,7 +59,7 @@ class Node():
 
 
 
-        # TODO Add the given node as the left child of the current node
+        
 
     def add_right_child(self, node: 'Node') -> None:
         """
@@ -73,7 +73,7 @@ class Node():
         else:
             return 
 
-        # TODO Add the given node as the right child of the current node
+        
 
     def is_external(self) -> bool:
         """
@@ -89,7 +89,7 @@ class Node():
         :param weight: The new weight of the node.
         """
         self.weight = weight;
-        # TODO Update the weight of the node
+        
 
     def get_left_child(self) -> 'Node':
         """
