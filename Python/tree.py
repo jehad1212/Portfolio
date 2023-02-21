@@ -18,7 +18,7 @@ The class also supports the following functions:
 
 
 class Tree():
-    # These are the defined properties as described above
+    
     root: Node
 
     def __init__(self, root: Node = None) -> None:
@@ -56,7 +56,7 @@ class Tree():
 
 
 
-        # TODO Add the child to the node as the left or right child depending on the value of left_child
+        
 
     def move_subtree(self, node_a: Node, node_b: Node, left_child: bool) -> None:
         """
@@ -89,7 +89,7 @@ class Tree():
 
 
 
-        # TODO Move the subtree rooted at node_a to the left or right child of node_b
+        
 
     def find_max_imbalance(self) -> int:
         """
@@ -97,7 +97,7 @@ class Tree():
         :return: The node with the maximum imbalance.
         """
         
-        # TODO Find the node with the maximum imbalance
+        
 
 
         max = root.get_imbalance();
